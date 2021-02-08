@@ -1,0 +1,135 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.container{
+  width: 60%;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.edit button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 10px;
+  background: #746DF1;
+  border: 1px solid #413AC8;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  outline: none;
+  cursor: pointer;
+  transition: background .2s linear;
+}
+
+.edit button:hover{
+  background: #645cfc;
+}
+
+.parameters{
+  width: 100%;
+  padding: 30px 0;
+  border-bottom: 1px solid #999999;
+}
+
+.paramsInner{
+  width: 15%;
+}
+
+.paramsEl{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.paramTitle{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+
+.paramValue{
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.table{
+  width: 100%;
+  padding: 60px 0 73px;
+}
+.tableTh{
+  padding: 0 0 26px 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #999999;
+  font-weight: normal;
+}
+
+.tableTd{
+  text-align: center;
+}
+.tableTd td{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  border: 1px solid #999999;
+  border-radius: 4px;
+  padding: 8px 15px;
+  width: 82px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
